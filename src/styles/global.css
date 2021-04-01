@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.block {
+    @apply flex flex-col items-center;
+}
+
+.title {
+ @apply text-6xl font-bold mb-6 text-center;
+}
+
+.subtitle {
+    @apply text-4xl mb-16;
+   }
+
+.button {
+    @apply hover:bg-indigo-50 active:bg-indigo-100 font-bold py-6 px-10 rounded-full shadow-lg;
+}
+
+.button-primary {
+    @apply bg-indigo-700 hover:bg-indigo-900 text-white;
+}
